@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
 
@@ -19,7 +18,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = HelloWindow()
     window.show()
-=======
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
 
@@ -40,5 +38,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = HelloWindow()
     window.show()
->>>>>>> 207a242 (first commit)
     sys.exit(app.exec_())

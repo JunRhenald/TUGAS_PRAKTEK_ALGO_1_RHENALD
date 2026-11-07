@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'login.ui'
@@ -85,7 +84,6 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
-=======
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'login.ui'
@@ -172,4 +170,4 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
->>>>>>> 207a242 (first commit)
+

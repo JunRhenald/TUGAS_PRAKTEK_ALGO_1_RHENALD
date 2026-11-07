@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'konverter_suhu_code.ui'
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     ui.setupUi(lblFahrenheit)
     lblFahrenheit.show()
     sys.exit(app.exec_())
-=======
+
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'konverter_suhu_code.ui'
@@ -144,4 +144,3 @@ if __name__ == "__main__":
     ui.setupUi(lblFahrenheit)
     lblFahrenheit.show()
     sys.exit(app.exec_())
->>>>>>> 207a242 (first commit)

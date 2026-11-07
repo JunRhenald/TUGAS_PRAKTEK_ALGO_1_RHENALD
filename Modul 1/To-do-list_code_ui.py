@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'To-do-list_code.ui'
@@ -61,7 +60,7 @@ if __name__ == "__main__":
     ui.setupUi(Todolist)
     Todolist.show()
     sys.exit(app.exec_())
-=======
+
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'To-do-list_code.ui'
@@ -124,4 +123,4 @@ if __name__ == "__main__":
     ui.setupUi(Todolist)
     Todolist.show()
     sys.exit(app.exec_())
->>>>>>> 207a242 (first commit)
+
