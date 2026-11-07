@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import sys
 from PyQt5.QtWidgets import*
 from PyQt5.QtCore import Qt, QRectF, QEvent
@@ -86,7 +86,6 @@ if __name__=="__main__":
     app = QApplication(sys.argv)
     window = DrawingApp()
     window.show()
-=======
 import sys
 from PyQt5.QtWidgets import*
 from PyQt5.QtCore import Qt, QRectF, QEvent
@@ -174,5 +173,4 @@ if __name__=="__main__":
     app = QApplication(sys.argv)
     window = DrawingApp()
     window.show()
->>>>>>> 207a242 (first commit)
     sys.exit(app.exec_())        

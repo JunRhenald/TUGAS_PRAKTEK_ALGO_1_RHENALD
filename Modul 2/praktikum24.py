@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import pyqtSignal, QObject
@@ -107,7 +107,6 @@ if __name__ =="__main__":
     window = MainApp()
     window.show()
     sys.exit(app.exec_())
-=======
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import pyqtSignal, QObject
@@ -216,4 +215,4 @@ if __name__ =="__main__":
     window = MainApp()
     window.show()
     sys.exit(app.exec_())
->>>>>>> 207a242 (first commit)
+

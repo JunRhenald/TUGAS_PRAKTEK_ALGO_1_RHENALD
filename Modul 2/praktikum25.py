@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 import sys
 from PyQt5.QtWidgets import *
@@ -124,7 +124,6 @@ if __name__ == "__main__":
     window = StyledApp()
     window.show()
     sys.exit(app.exec_())
-=======
 
 import sys
 from PyQt5.QtWidgets import *
@@ -250,4 +249,4 @@ if __name__ == "__main__":
     window = StyledApp()
     window.show()
     sys.exit(app.exec_())
->>>>>>> 207a242 (first commit)
+
