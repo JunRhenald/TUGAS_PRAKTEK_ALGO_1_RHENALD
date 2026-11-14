@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>0</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Perpustakaan - Dashboard Utama</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>12</number>
+    </property>
+    <property name="leftMargin">
+     <number>30</number>
+    </property>
+    <property name="topMargin">
+     <number>30</number>
+    </property>
+    <property name="rightMargin">
+     <number>30</number>
+    </property>
+    <property name="bottomMargin">
+     <number>30</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="lblTitle">
+      <property name="styleSheet">
+       <string notr="true">font-size: 20px; 
+font-weight: bold; 
+color: #2C3E50; 
+margin-bottom: 5px;</string>
+      </property>
+      <property name="text">
+       <string>SISTEM INFORMASI PERPUSTAKAAN</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblSubtitle">
+      <property name="styleSheet">
+       <string notr="true">font-size: 13px; 
+color: #7F8C8D; 
+margin-bottom: 20px;</string>
+      </property>
+      <property name="text">
+       <string>Praktikum Algoritma &amp; Pemrograman 2 (Python + PyQt5)</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_1">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>30</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnKelolaBuku">
+      <property name="styleSheet">
+       <string notr="true">QPushButton { 
+background-color: #34495E; 
+color: white; 
+border: none; 
+border-radius: 6px; 
+font-size: 14px; 
+font-weight: bold; 
+padding: 12px; 
+min-height: 40px; 
+} 
+QPushButton:hover { 
+background-color: #415B76; 
+} 
+QPushButton:pressed { 
+background-color: #2C3E50; 
+}</string>
+      </property>
+      <property name="text">
+       <string>📖 Kelola Data Buku</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnPinjamBuku">
+      <property name="styleSheet">
+       <string notr="true">QPushButton { 
+background-color: #34495E; 
+color: white; 
+border: none; 
+border-radius: 6px; 
+font-size: 14px; 
+font-weight: bold; 
+padding: 12px; 
+min-height: 40px; 
+} 
+QPushButton:hover { 
+background-color: #415B76; 
+} 
+QPushButton:pressed { 
+background-color: #2C3E50; 
+}</string>
+      </property>
+      <property name="text">
+       <string>📥 Form Peminjaman Buku</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnKembaliBuku">
+      <property name="styleSheet">
+       <string notr="true">QPushButton { 
+background-color: #34495E; 
+color: white; 
+border: none; 
+border-radius: 6px; 
+font-size: 14px; 
+font-weight: bold; 
+padding: 12px; 
+min-height: 40px; 
+} 
+QPushButton:hover { 
+background-color: #415B76; 
+} 
+QPushButton:pressed { 
+background-color: #2C3E50; 
+}</string>
+      </property>
+      <property name="text">
+       <string>📤 Form Pengembalian Buku</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnLaporan">
+      <property name="styleSheet">
+       <string notr="true">QPushButton { 
+background-color: #34495E; 
+color: white; 
+border: none; 
+border-radius: 6px; 
+font-size: 14px; 
+font-weight: bold; 
+padding: 12px; 
+min-height: 40px; 
+} 
+QPushButton:hover { 
+background-color: #415B76; 
+} 
+QPushButton:pressed { 
+background-color: #2C3E50; 
+}</string>
+      </property>
+      <property name="text">
+       <string>📊 Laporan Statistik</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>30</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnKeluar">
+      <property name="styleSheet">
+       <string notr="true">QPushButton { 
+background-color: #C0392B; 
+color: white; 
+border: none; 
+border-radius: 6px; 
+font-size: 14px; 
+font-weight: bold; 
+padding: 12px; 
+min-height: 40px; 
+} 
+QPushButton:hover { 
+background-color: #E74C3C; 
+} 
+QPushButton:pressed { 
+background-color: #96281B; 
+}</string>
+      </property>
+      <property name="text">
+       <string>✖ Keluar Aplikasi</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

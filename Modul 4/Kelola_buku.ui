@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KelolaBukuWindow</class>
+ <widget class="QMainWindow" name="KelolaBukuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>804</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Perpustakaan - Kelola Data Buku - kelola_buku.ui</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow { 
+background-color: #F8F9FA; 
+} 
+QLabel#lblTitle { 
+font-size: 18px; 
+font-weight: bold; 
+color: #2C3E50; 
+} 
+QLabel { 
+font-size: 12px; 
+color: #333; 
+} 
+QLineEdit { 
+        padding: 6px; 
+        border: 1px solid #BDC3C7; 
+        border-radius: 4px; 
+        background-color: white; 
+    } 
+    QLineEdit:focus { 
+        border: 1px solid #3498DB; 
+    } 
+QPushButton { 
+        background-color: #34495E; 
+        color: white; 
+        border: none; 
+        border-radius: 4px; 
+        padding: 8px 15px; 
+        font-weight: bold; 
+    } 
+    QPushButton:hover { 
+        background-color: #415B76; 
+    } 
+QPushButton#btnTambah { 
+        background-color: #27AE60; 
+    } 
+    QPushButton#btnTambah:hover { 
+        background-color: #2ECC71; 
+    } 
+QPushButton#btnEdit { 
+        background-color: #F39C12; 
+    } 
+    QPushButton#btnEdit:hover { 
+        background-color: #F1C40F; 
+    } 
+QPushButton#btnHapus { 
+        background-color: #C0392B; 
+    } 
+    QPushButton#btnHapus:hover { 
+        background-color: #E74C3C; 
+    } 
+QTableWidget { 
+        background-color: white; 
+        border: 1px solid #BDC3C7; 
+        gridline-color: #ECF0F1; 
+    }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayoutMain">
+    <property name="spacing">
+     <number>15</number>
+    </property>
+    <property name="leftMargin">
+     <number>20</number>
+    </property>
+    <property name="topMargin">
+     <number>20</number>
+    </property>
+    <property name="rightMargin">
+     <number>20</number>
+    </property>
+    <property name="bottomMargin">
+     <number>20</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="lblTitle">
+      <property name="text">
+       <string>📖 KELOLA DATA BUKU</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayoutMain">
+      <property name="spacing">
+       <number>15</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frameInput">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayoutForm">
+         <item>
+          <layout class="QFormLayout" name="formLayout">
+           <property name="fieldGrowthPolicy">
+            <enum>QFormLayout::ExpandingFieldsGrow</enum>
+           </property>
+           <item row="0" column="0">
+            <widget class="QLabel" name="lblIdBuku">
+             <property name="text">
+              <string>ID Buku (ISBN):</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="txtIdBuku"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="lblJudul">
+             <property name="text">
+              <string>Judul Buku:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="txtJudul"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="lblPengarang">
+             <property name="text">
+              <string>Pengarang:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="txtPengarang"/>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="lblPenerbit">
+             <property name="text">
+              <string>Penerbit:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="txtPenerbit"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="lblTahun">
+             <property name="text">
+              <string>Tahun Terbit:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="txtTahun"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="lblStok">
+             <property name="text">
+              <string>Jumlah Stok:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="txtStok"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QGridLayout" name="gridLayoutButtons">
+           <item row="0" column="0">
+            <widget class="QPushButton" name="btnTambah">
+             <property name="text">
+              <string>Tambah</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QPushButton" name="btnEdit">
+             <property name="text">
+              <string>Edit</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="btnHapus">
+             <property name="text">
+              <string>Hapus</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="btnBersihkan">
+             <property name="text">
+              <string>Bersihkan</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_Form">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayoutTable">
+        <item>
+         <widget class="QTableWidget" name="tableBuku">
+          <column>
+           <property name="text">
+            <string>ID Buku</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Judul</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pengarang</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Penerbit</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Tahun</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Stok</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnKembali">
+      <property name="text">
+       <string>🔙 Kembali ke Menu Utama</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
